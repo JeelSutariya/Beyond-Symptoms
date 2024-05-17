@@ -1,4 +1,5 @@
 # Beyond-Symptoms
 
-#Abstract
+# Abstract
+
 The proposed progressive Disease Prediction System symbolizes an advanced fusion of technological innovation and medical expertise aimed at transforming healthcare by enabling the early identification of some of the more chronic diseases. Utilizing specialized machine learning models, this research aims to predict disease onset based on user-provided health data. The system features a user-friendly web interface, ensuring seamless interaction for data input and result visualization. Each disease prediction model, having explored various machine learning models for optimal accuracy, employs specific algorithms to ensure precision and reliability. Emphasis is placed on data privacy, ethical considerations, and compliance with healthcare regulations. The research not only contributes to efficient resource allocation and enhanced population health but also empowers individuals to proactively manage their well-being. Challenges encountered during development, such as data variability, model complexity, and regulatory compliance, were addressed with innovative solutions. The research’s future scope envisions continuous growth, contributing to advancements in healthcare prognosis and fostering a proactive approach to health management.
