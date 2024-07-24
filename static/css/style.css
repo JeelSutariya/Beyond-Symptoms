@@ -1,0 +1,97 @@
+/* static/css/style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f6;
+    color: #333;
+}
+
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #1e3a8a;
+}
+
+.stButton > button {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #2563eb;
+}
+
+.css-1d391kg {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stProgress > div > div > div > div {
+    background-color: #3b82f6;
+}
+
+.stSelectbox > div > div {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.stNumberInput > div > div > input {
+    border-radius: 5px;
+}
+
+/* New styles for improved UI */
+.stSidebar {
+    background-color: #f8fafc;
+    border-right: 1px solid #e2e8f0;
+}
+
+.stSidebar .stButton > button {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.stMetric {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Custom styles for prediction results */
+.prediction-result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.prediction-result.success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.prediction-result.warning {
+    background-color: #fef3c7;
+    color: #92400e;
+}   
