@@ -51,34 +51,33 @@ The proposed progressive Disease Prediction System symbolizes an advanced fusion
 ```
 beyond_symptoms/
 │
+├── Documentation
+│   └── Beyond_Symptoms_Project_Report.pdf
+│
 ├── data/
 │   ├── diabetes.csv
 │   ├── heart.csv
-│   └── parkinsons.csv
+│   └── parkinsons.data
 │
 ├── models/
+│   ├── __init__.py
 │   ├── train_diabetes.py
 │   ├── train_heart.py
 │   ├── train_parkinsons.py
 │   └── model_utils.py
 │
+├── pages/
+│   ├── __init__.py
+│   ├── diabetes.py
+│   ├── heart_disease.py
+│   ├── parkinsons.py
+│   └── home.py
+│
 ├── saved_models/
+│   ├── __init__.py
 │   ├── diabetes_model.pkl
 │   ├── heart_disease_model.pkl
 │   └── parkinsons_model.pkl
-│
-├── src/
-│   ├── __init__.py
-│   ├── app.py
-│   ├── pages/
-│   │   ├── __init__.py
-│   │   ├── home.py
-│   │   ├── diabetes.py
-│   │   ├── heart_disease.py
-│   │   └── parkinsons.py
-│   └── utils/
-│       ├── __init__.py
-│       └── preprocessing.py
 │
 ├── static/
 │   ├── css/
@@ -88,13 +87,18 @@ beyond_symptoms/
 │       ├── diabetes.png
 │       ├── heart.png
 │       └── parkinsons.png
-│
+│ 
 ├── tests/
 │   ├── test_models.py
 │   └── test_preprocessing.py
+│ 
+├── utils/
+│   ├── __init__.py
+│   └── preprocessing.py
 │
 ├── .gitignore
 ├── README.md
+├── app.py
 ├── requirements.txt
 └── setup.py
 ```
